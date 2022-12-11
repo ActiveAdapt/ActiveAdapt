@@ -8,7 +8,7 @@ Contents:
 4. Test set collection details 
 5. Usage
 
-###########################################################################################
+#######################################################################################
 
 1. Installation 
 
@@ -18,7 +18,7 @@ Contents:
            
 Please refer to https://github.com/jwyang/faster-rcnn.pytorch to get detailed prerequistes.
 
-###########################################################################################
+#######################################################################################
 
 2. Datasets 
 
@@ -28,7 +28,7 @@ Our collected lemur dataset and constructed indoor dataset are shown in the "/da
 ![1670731877(1)](https://user-images.githubusercontent.com/119776995/206886003-1279678e-3b1f-492c-b502-364609c0f1f1.png)
 
 
-###########################################################################################
+#######################################################################################
 
 3. Detailed setting for each round 
 
@@ -36,13 +36,13 @@ Our collected lemur dataset and constructed indoor dataset are shown in the "/da
 
 To simulate the realistic class-bias CL data streams, during each round, the user takes images of objects from two classes. 20 images are taken per round, with different numbers of images for each class. Rounds differ, with different scenes and different object poses
 
-###########################################################################################
+#######################################################################################
 
 4. Test set collection details 
 
 We pre-collect two diverse datasets containing images with different object poses and backgrounds for system evaluation, since it is inefficient and time-consuming for users in the wild to collect and label the test set in each round required in the CL evaluation. To have similar image numbers in two test sets, we collect and label 120 images for each class (480 in total) to construct the test dataset for the lemur scenario, and 50 images for each class (450 in total) to form the test dataset for the indoor object scenario.
 
-###########################################################################################
+#######################################################################################
 
 5. Usage
 
