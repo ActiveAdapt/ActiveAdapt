@@ -97,7 +97,7 @@ To have similar image numbers in two test sets, we collect and label 120 images 
 ## 5. Implementation
 
 ##### 5.1 Installation           
-For the project installation, please refer to https://github.com/jwyang/faster-rcnn.pytorch to get detailed prerequistes.
+For the project installation, please refer to https://github.com/jwyang/faster-rcnn.pytorch to get detailed prerequisites.
 
 ##### 5.2 For the BiMix initialization
 Please train the model using this command:
