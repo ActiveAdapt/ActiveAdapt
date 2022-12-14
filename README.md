@@ -111,10 +111,7 @@ Please run the detection assistance on the server:
 uvicorn app_guidance:app --reload --host "Your IP address" --port "Your port"
 ```
 
-##### 5.4 For the detection assistance on the server
-The AR app is build by the Unity engine.
-
-##### 5.5 For the model testing
+##### 5.4 For the model testing
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset "dataset" --part "test set name" --model_dir "path to your model" --cuda
 ```
