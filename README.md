@@ -127,4 +127,4 @@ uvicorn app_guidance:app --reload --host "Your IP address" --port "Your port"
 ```
 
 ##### 5.4 AR APP
-Please build the unity project in the Unity engine to run the AR APP.
+Please build the unity project in the Unity engine to run the AR APP. The project can be downloaded through [Google Drive (1.2G)](https://drive.google.com/file/d/11CTeijbk9ez2OaSqlvL5g3pRV2WtD9xd/view?usp=sharing).
